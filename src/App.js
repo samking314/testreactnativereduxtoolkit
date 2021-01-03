@@ -25,10 +25,10 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import { Provider, useDispatch } from 'react-redux';
-import { createStore, increment, decrement } from './store';
+import { Provider } from 'react-redux';
+import { createStore } from './store';
 
-import { Comp } from './Comp';
+import { Comp } from './components/Comp';
 
 const store = createStore();
 
